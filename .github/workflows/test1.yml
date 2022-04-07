@@ -4,7 +4,7 @@ name: CI
 on:
   workflow_dispatch:
     inputs:
-      logLevel:
+      menu:
         description: 'Menu'
         required: true
         default: 'warning' 
